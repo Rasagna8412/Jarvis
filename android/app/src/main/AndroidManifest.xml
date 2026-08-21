@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jarvis.companion">
+
+    <uses-permission android.permission.INTERNET />
+    <uses-permission android.permission.ACCESS_NETWORK_STATE />
+    <uses-permission android.permission.BATTERY_STATS />
+    <uses-permission android.permission.SEND_SMS />
+    <uses-permission android.permission.READ_SMS />
+    <uses-permission android.permission.CALL_PHONE />
+    <uses-permission android.permission.READ_CONTACTS />
+    <uses-permission android.permission.RECORD_AUDIO />
+    <uses-permission android.permission.FOREGROUND_SERVICE />
+    <uses-permission android.permission.SYSTEM_ALERT_WINDOW />
+
+    <application
+        android.allowBackup="false"
+        android.icon="@mipmap/ic_launcher"
+        android.label="JARVIS Companion"
+        android.supportsRtl="true"
+        android.theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <activity
+            android.name=".MainActivity"
+            android.exported="true">
+            <intent-filter>
+                <action android.name="android.intent.action.MAIN" />
+                <category android.name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
