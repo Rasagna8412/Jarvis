@@ -87,8 +87,7 @@ Deploy your JARVIS backend online so your mobile phone can use JARVIS 24/7 even 
 | What You Say Out Loud | Action Executed |
 | :--- | :--- |
 | 🗣️ *"JARVIS"* / *"Hey JARVIS"* | Wakes up JARVIS: *"Yes boss, what can I do for you?"* |
-| 🗣️ *"Call Amma via BSNL"* | Dials Amma (`+919030187412`) on SIM 1. |
-| 🗣️ *"Send a WhatsApp message to Rasagna saying hi"* | Opens WhatsApp and automatically transmits "hi". |
+| 🗣️ *"Send a WhatsApp message to me saying hi"* | Opens WhatsApp and automatically transmits "hi". |
 | 🗣️ *"Open Free Fire on my mobile"* | Launches Free Fire MAX on phone screen. |
 | 🗣️ *"Open WhatsApp on my laptop"* | Launches WhatsApp Desktop on PC. |
 | 🗣️ *"What is my phone battery?"* | Checks live phone telemetry (e.g. 48% Charging). |
